@@ -40,7 +40,7 @@
 		"name": "Headquarters",
 		"replaces": "Palace",
 		"cost": 1,
-		"UniqueTo": "Great Philippines",
+		"uniqueTo": "Great Philippines",
 		"isNationalWonder": true,
 		"production": 30,
 		"science": 30,
