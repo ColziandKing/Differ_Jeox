@@ -292,8 +292,8 @@
 		"cities": ["Vancouver"]
 	},
 	{
-		"name": "Venice",
-		"adjective": ["Venetian"],
+		"name": "Kolmeia",
+		"adjective": ["Kolmeiahn"],
 
 		"uniques": ["Double quantity of [Horses] produced"],
 		"startBias": ["Coast"],
@@ -301,9 +301,9 @@
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "A wrong calculation, on my part.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,204,255],
-		"cities": ["Venice"]
+		"outerColor": [89,78,24],
+		  "innerColor": [255,223,0],
+		"cities": ["Kolmeia"]
 	},
 
 	{
