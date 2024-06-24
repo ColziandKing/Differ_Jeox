@@ -2,7 +2,7 @@
   //nations
   {
 		"name": "Great Philippines",
-		"leaderName": "Jaja",
+		"leaderName": "Kolzi Jose Emilio O. Duterte",
 		"adjective": ["Great People"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Scientific",
@@ -75,23 +75,26 @@
   {
 		"name": "Brussels",
 		"adjective": ["Bruxellois"],
-    "startBias": ["Plains"],
-		"preferredVictoryType": "Scientific",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "I guess you weren't here for the sprouts after all...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,255,51],
-    "favoredReligion": "Christianity",
 
-    "uniques": ["Double quantity of [Horses] produced"],
+		"preferredVictoryType": "Scientific",
+    		"favoredReligion": "Christianity",
+    		"uniques": ["Double quantity of [Horses] produced"],
+	  
 		"cities": ["Brussels"]
 	},
 	{
 		"name": "Florence",
 		"adjective": ["Florentine"],
-		"cityStateType": "Cultured",
+
+		"preferredVictoryType": "Scientific",
+    		"favoredReligion": "Christianity",
+    		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -103,19 +106,23 @@
 	{
 		"name": "Hanoi",
 		"adjective": ["Hanoi"],
-		"cityStateType": "Cultured",
+
+    		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "So this is how it feels to die...",
 		"outerColor": [0, 0, 0],
-        "innerColor": [51,51,255],
+       		"innerColor": [51,51,255],
 		"cities": ["Hanoi"]
 	},
 	{
 		"name": "Kabul",
 		"adjective": ["Kabul"],
-		"cityStateType": "Cultured",
+
+		"preferredVictoryType": "Scientific",
+    		"favoredReligion": "Islam",
+    		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -127,7 +134,8 @@
 	{
 		"name": "Kuala Lumpur",
 		"adjective": ["KLite"],
-		"cityStateType": "Cultured",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -139,7 +147,8 @@
 	{
 		"name": "Lhasa",
 		"adjective": ["tibetano"],
-		"cityStateType": "Cultured",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -151,7 +160,8 @@
 	{
 		"name": "Milan",
 		"adjective": ["Milanese"],
-		"cityStateType": "Cultured",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -163,7 +173,8 @@
 	{
 		"name": "Quebec City",
 		"adjective": ["Québécois"],
-		"cityStateType": "Cultured",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -176,7 +187,8 @@
 	{
 		"name": "Cape Town",
 		"adjective": ["Cape Town"],
-		"cityStateType": "Maritime",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -188,7 +200,8 @@
 	{
 		"name": "Helsinki",
 		"adjective": ["Helsinki"],
-		"cityStateType": "Maritime",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -200,7 +213,8 @@
 	{
 		"name": "Manila",
 		"adjective": ["Manilan"],
-		"cityStateType": "Maritime",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -212,7 +226,8 @@
 	{
 		"name": "Mogadishu",
 		"adjective": ["Mogadishu"],
-		"cityStateType": "Maritime",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -224,7 +239,8 @@
 	{
 		"name": "Rio de Janeiro",
 		"adjective": ["Carioca"],
-		"cityStateType": "Maritime",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
@@ -237,7 +253,9 @@
 	{
 		"name": "Sydney",
 		"adjective": ["Sydney"],
-		"cityStateType": "Maritime",
+
+		"uniques": ["Double quantity of [Horses] produced"],
+		"startBias": ["Coast"],
 
 		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
 		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
@@ -249,7 +267,8 @@
 	{
 		"name": "Ur",
 		"adjective": ["Ur"],
-		"cityStateType": "Maritime",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
@@ -262,7 +281,8 @@
 	{
 		"name": "Vancouver",
 		"adjective": ["Vancouverite"],
-		"cityStateType": "Maritime",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
 		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
@@ -274,7 +294,8 @@
 	{
 		"name": "Venice",
 		"adjective": ["Venetian"],
-		"cityStateType": "Maritime",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
@@ -288,7 +309,8 @@
 	{
 		"name": "Antwerp",
 		"adjective": ["Antwerp"],
-		"cityStateType": "Mercantile",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -301,7 +323,8 @@
 	{
 		"name": "Genoa",
 		"adjective": ["Genoese"],
-		"cityStateType": "Mercantile",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -314,7 +337,8 @@
 	{
 		"name": "Kathmandu",
 		"adjective": ["Kathmandu"],
-		"cityStateType": "Mercantile",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -326,7 +350,9 @@
 	{
 		"name": "Singapore",
 		"adjective": ["Singaporean"],
-		"cityStateType": "Mercantile",
+
+		"uniques": ["Double quantity of [Horses] produced"],
+		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -338,7 +364,8 @@
 	{
 		"name": "Tyre",
 		"adjective": ["Tyrian"],
-		"cityStateType": "Mercantile",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -351,7 +378,8 @@
 	{
 		"name": "Zanzibar",
 		"adjective": ["Zanzibar"],
-		"cityStateType": "Mercantile",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -364,7 +392,8 @@
 	{
 		"name": "Almaty",
 		"adjective": ["Almaty"],
-		"cityStateType": "Militaristic",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -376,7 +405,8 @@
 	{
 		"name": "Belgrade",
 		"adjective": ["Belgrade"],
-		"cityStateType": "Militaristic",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "Let's have a nice little War, shall we?",
 		"attacked": "If you need your nose bloodied, we'll happily serve.",
@@ -388,7 +418,8 @@
 	{
 		"name": "Dublin",
 		"adjective": ["Dubliner"],
-		"cityStateType": "Militaristic",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
 		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
@@ -401,7 +432,8 @@
 	{
 		"name": "Edinburgh",
 		"adjective": ["Edinburghensian"],
-		"cityStateType": "Militaristic",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!",
@@ -414,7 +446,8 @@
 	{
 		"name": "M'Banza-Kongo",
 		"adjective": ["M'Banza-Kongo"],
-		"cityStateType": "Militaristic",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
 		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
@@ -426,7 +459,8 @@
 	{
 		"name": "Sidon",
 		"adjective": ["Sidon"],
-		"cityStateType": "Militaristic",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -438,7 +472,8 @@
 	{
 		"name": "Valletta",
 		"adjective": ["maltese"],
-		"cityStateType": "Militaristic",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "We don't like your face. To arms!",
 		"attacked": "You will see you have just bitten off more than you can chew.",
@@ -451,7 +486,8 @@
 	{
 		"name": "Bratislava",
 		"adjective": ["Bratislava"],
-		"cityStateType": "Religious",
+
+		"uniques": ["Double quantity of [Horses] produced"],
 
 		"declaringWar": "I didn't want to do this. We declare war.",
 		"attacked": "I will fear no evil. For god is with me!",
@@ -464,6 +500,8 @@
 		"name": "Cahokia",
 		"adjective": ["Cahokia"],
 
+		"uniques": ["Double quantity of [Horses] produced"],
+
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
@@ -475,12 +513,14 @@
 		"name": "Jerusalem",
 		"adjective": ["Jerusalem"],
 
+		"uniques": ["Double quantity of [Horses] produced"],
+
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [198,255,192],
-    "favoredReligion": "Judaism",
+    		"favoredReligion": "Judaism",
     
 		"cities": ["Jerusalem"]
 	}
