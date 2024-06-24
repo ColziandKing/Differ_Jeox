@@ -1,7 +1,7 @@
 {
 "isBaseRuleset":false,  
   "constants":{
-    "religionLimitBase":12,
+    "religionLimitBase":10,
     "religionLimitMultiplier":1,
   }
 }
