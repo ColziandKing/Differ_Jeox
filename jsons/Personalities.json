@@ -33,4 +33,72 @@
       }
     ]
   },
+  {
+    "name": "Tyrant",
+    "production": 1,
+    "food": 1,
+    "gold": 1,
+    "science": 1,
+    "culture": 1,
+    "happiness": 1,
+    "faith": 1,
+    "military": 1,
+    "aggressive": 1,
+    "declareWar": 1,
+    "commerce": 1,
+    "diplomacy": 1,
+    "loyal": 1,
+    "expansion": 1,
+    "priorities": {
+      "Tradition": 1,
+      "Liberty": 1,
+      "Honor": 1,
+      "Commerce": 1,
+      "Patronage": 1,
+      "Piety": 1,
+      "Rationalism": 1,
+      "Freedom": 1,
+      "Autocracy": 1,
+      "Order": 1
+    },
+    "civilopediaText": [
+      {
+        "text": "Uno."
+      }
+    ]
+  },
+  {
+    "name": "Jesus Christ of Nazareth",
+    "production": 10,
+    "food": 10,
+    "gold": 5,
+    "science": 5,
+    "culture": 10,
+    "happiness": 10,
+    "faith": 10,
+    "military": 10,
+    "aggressive": 1,
+    "declareWar": 1,
+    "commerce": 1,
+    "diplomacy": 10,
+    "loyal": 10,
+    "expansion": 10,
+    "priorities": {
+      "Tradition": 10,
+      "Liberty": 10,
+      "Honor": 5,
+      "Commerce": 5,
+      "Patronage": 5,
+      "Piety": 10,
+      "Rationalism": 5,
+      "Freedom": 10,
+      "Autocracy": 1,
+      "Order": 1
+    },
+    "civilopediaText": [
+      {
+        "text": "The Messiah, the Lamb, & the Lord."
+      }
+    ]
+  },
 ]
