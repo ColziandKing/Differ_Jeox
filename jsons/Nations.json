@@ -329,6 +329,7 @@
 	{
 		"name": "Tyre",
 		"adjective": ["Tyrian"],
+		"leaderName": "Tyrant",
 
 		"startBias": ["Coast"],
 
@@ -459,6 +460,7 @@
 	{
 		"name": "Jerusalem",
 		"adjective": ["Jerusalem"],
+		"leaderName": "Jesus Christ of Nazareth",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
