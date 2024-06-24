@@ -202,7 +202,7 @@
 		"name": "Helsinki",
 		"adjective": ["Helsinki"],
 
-		"uniques": ["[+1 Production] from every [Strategic resource]","Double quantity of [Horses] produced",
+		"uniques": ["[+1 Production] from every [Strategic resource]","Double quantity of [Horses] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
