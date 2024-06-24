@@ -110,8 +110,7 @@
 	{
         "name": "Apostolic Succession",
         "type": "Founder",
-        "uniques": ["[+1 Faith, +1 Gold] from all [Culture] buildings <in cities with at least [7] [Followers of this Religion]>",
-                    "[+1 Faith, +1 Culture] from every [Shrine]"]
+        "uniques": ["[+1 Faith, +1 Gold] from all [Culture] buildings <in cities with at least [7] [Followers of this Religion]>"]
     },
   //Enhancer
   {
