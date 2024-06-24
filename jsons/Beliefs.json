@@ -112,6 +112,11 @@
         "type": "Founder",
         "uniques": ["[+1 Faith, +1 Gold] from all [Culture] buildings <in cities with at least [7] [Followers of this Religion]>"]
     },
+	{
+        "name": "Incarnation of God",
+        "type": "Founder",
+        "uniques": ["[+23]% Natural religion spread [in all cities]","[+1 Gold] per [3] population [in cities following this religion]"]
+    },
   //Enhancer
   {
         "name": "Work Ethic",
@@ -136,5 +141,10 @@
         "type": "Enhancer",
         "uniques": ["[+2 Culture, +1 Happiness] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
                     "[+1 Faith, +1 Gold] from all [Culture] buildings <in cities with at least [9] [Followers of this Religion]>"]
+    },
+{
+        "name": "Theosis",
+        "type": "Enhancer",
+        "uniques": ["[-25]% Unhappiness from [Followers of this Religion] [in all cities]","[+33]% Strength <for [All] units> <when fighting in [All] tiles>"]
     },
 ]
