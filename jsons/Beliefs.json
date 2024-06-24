@@ -86,4 +86,56 @@
         "type": "Follower",
         "uniques": ["[+15]% growth [in this city] <when not at war>"]
     },
+  //Founder
+	{
+    "name": "Poly-Clergy",
+    "type": "Founder",
+    "uniques": [
+      "Religion naturally spreads to cities [+2] tiles away","[+2 Gold, +2 Faith] from each Trade Route",
+      "[-1 Food, -3 Production, +1 Gold, +2 Culture] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>"
+    ]
+  },
+  {
+        "name": "Papal Primacy",
+        "type": "Founder",
+        "uniques": ["Resting point for Influence with City-States following this religion [+15]",
+                    "[+1 Food, +1 Science, +1 Culture] [in this city]"]
+    },
+	{
+        "name": "Autocephalous Communion",
+        "type": "Founder",
+        "uniques": ["Resting point for Influence with City-States following this religion [+20]",
+                    "[+1 Happiness, +1 Culture] from every [Shrine] <in cities where this religion has at least [3] followers>"]
+    },
+	{
+        "name": "Apostolic Succession",
+        "type": "Founder",
+        "uniques": ["[+1 Faith, +1 Gold] from all [Culture] buildings <in cities with at least [7] [Followers of this Religion]>",
+                    "[+1 Faith, +1 Culture] from every [Shrine]"]
+    },
+  //Enhancer
+  {
+        "name": "Work Ethic",
+        "type": "Enhancer"
+        "uniques": ["[+2 Production, +1 Gold] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
+  "May buy [Worker] units with [Faith] for [2] times their normal Production cost <in cities with at least [5] [Followers of this Religion]>"]
+    },
+  {
+        "name": "Religious Unity",
+        "type": "Enhancer",
+        "uniques": ["[+100]% Natural religion spread [in City-State cities]",
+                    "[+40]% Natural religion spread [in all cities]"]
+    },
+  {
+        "name": "Icon de Hedo-Nihilism",
+        "type": "Enhancer",
+        "uniques": ["[-15]% [Happiness] from every follower, up to [-20]% <when not at war>","[+1 Gold] [in all cities]",
+                    "[+2 Faith] [in all cities] <during a Golden Age>","[-2 Happiness, -3 Faith] from every [Dyes]","[-8 Food, -7 Culture] from every [Crab]"]
+    },
+	{
+        "name": "Chantheism",
+        "type": "Enhancer",
+        "uniques": ["[+2 Culture, +1 Happiness] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
+                    "[+1 Faith, +1 Gold] from all [Culture] buildings <in cities with at least [9] [Followers of this Religion]>"
+    },
 ]
