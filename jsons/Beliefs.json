@@ -1,4 +1,15 @@
 [
+	//Pantheon
+	{
+        "name": "Coastal Folklore",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Fishing Boats]","[+1 Faith] from every [Atoll]"]
+    },
+	{
+        "name": "Sacred Mountains",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith, +1 Food] from every [Mountain]"]
+    },
   //Follower
   {
         "name": "Asceticism",
