@@ -126,7 +126,7 @@
 	{
         "name": "Incarnation of God",
         "type": "Founder",
-        "uniques": ["[+23]% Natural religion spread [in all cities]","[+1 Gold] per [3] population [in cities following this religion]"]
+        "uniques": ["[+10]% Natural religion spread [in all cities]","[+1 Gold] per [3] population [in cities following this religion]"]
     },
   //Enhancer
   {
@@ -139,7 +139,7 @@
         "name": "Religious Unity",
         "type": "Enhancer",
         "uniques": ["[+100]% Natural religion spread [in City-State cities]",
-                    "[+40]% Natural religion spread [in all cities]"]
+                    "[+20]% Natural religion spread [in all cities]"]
     },
   {
         "name": "Icon de Hedo-Nihilism",
