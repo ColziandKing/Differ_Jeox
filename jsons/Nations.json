@@ -176,7 +176,7 @@
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [185,132,66],
-		"cities": ["Milan"]
+		"cities": ["Old Milan","Pre Milan","Vetus Milan","Idem Milan",]
 	},
 	{
 		"name": "Quebec City",
