@@ -85,6 +85,8 @@
 	{
 		"name": "Archer",
 		"unitType": "Archery",
+		"replaces": "Bowman",
+		"uniqueTo": "Babylon",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
@@ -103,16 +105,12 @@
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
-		"replaces": "Archer",
-		"uniqueTo": "Babylon",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Slinger",
 		"unitType": "Archery",
-		"uniqueTo": "Inca",
-		"replaces": "Archer",
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 7,
@@ -163,6 +161,8 @@
 	{
 		"name": "Trireme",
 		"unitType": "Melee Water",
+		"uniqueTo": "Carthage",
+		"replaces": "Quinquereme",
 		"movement": 4,
 		"strength": 10,
 		"cost": 45,
@@ -175,8 +175,6 @@
 	{
 		"name": "Quinquereme",
 		"unitType": "Melee Water",
-		"uniqueTo": "Carthage",
-		"replaces": "Trireme",
 		"movement": 4,
 		"strength": 13,
 		"cost": 45,
@@ -217,6 +215,8 @@
 	{
 		"name": "Chariot Archer",
 		"unitType": "Archery",
+		"uniqueTo": "Egypt",
+		"replaces": "War Chariot",
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
@@ -231,8 +231,6 @@
 	{
 		"name": "War Chariot",
 		"unitType": "Archery",
-		"uniqueTo": "Egypt",
-		"replaces": "Chariot Archer",
 		"movement": 5,
 		"strength": 6,
 		"rangedStrength": 10,
@@ -246,8 +244,6 @@
 	{
 		"name": "Horse Archer",
 		"unitType": "Archery",
-		"uniqueTo": "The Huns",
-		"replaces": "Chariot Archer",
 		"movement": 4,
 		"strength": 7,
 		"rangedStrength": 10,
@@ -262,8 +258,6 @@
 	{
 		"name": "War Elephant",
 		"unitType": "Archery",
-		"uniqueTo": "India",
-		"replaces": "Chariot Archer",
 		"movement": 3,
 		"strength": 9,
 		"rangedStrength": 11,
@@ -277,6 +271,8 @@
 	{
 		"name": "Spearman",
 		"unitType": "Sword",
+		"replaces": "Hoplite",
+		"uniqueTo": "Greece",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
@@ -289,8 +285,6 @@
 	{
 		"name": "Hoplite",
 		"unitType": "Sword",
-		"replaces": "Spearman",
-		"uniqueTo": "Greece",
 		"movement": 2,
 		"strength": 13,
 		"cost": 56,
@@ -318,8 +312,6 @@
 	{
 		"name": "Battering Ram",
 		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
-		"replaces": "Spearman",
-		"uniqueTo": "The Huns",
 		"movement": 2,
 		"strength": 10,
 		"cost": 75,
@@ -365,6 +357,8 @@
 	{
 		"name": "Horseman",
 		"unitType": "Mounted",
+		"uniqueTo": "Byzantium",
+		"replaces": "Cataphract",
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
@@ -396,8 +390,6 @@
 	{
 		"name": "African Forest Elephant",
 		"unitType": "Mounted",
-		"uniqueTo": "Carthage",
-		"replaces": "Horseman",
 		"movement": 3,
 		"strength": 14,
 		"cost": 100,
@@ -413,8 +405,6 @@
 	{
 		"name": "Cataphract",
 		"unitType": "Mounted",
-		"uniqueTo": "Byzantium",
-		"replaces": "Horseman",
 		"movement": 3,
 		"strength": 15,
 		"cost": 75,
@@ -473,6 +463,8 @@
 	{
 		"name": "Swordsman",
 		"unitType": "Sword",
+		"uniqueTo": "Rome",
+		"replaces": "Legion",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -486,8 +478,6 @@
 	{
 		"name": "Legion",
 		"unitType": "Sword",
-		"uniqueTo": "Rome",
-		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 17,
 		"cost": 75,
@@ -535,6 +525,8 @@
 	{
 		"name": "Pikeman",
 		"unitType": "Sword",
+		"replaces": "Landsknecht",
+		"uniqueTo": "Germany",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
@@ -547,8 +539,6 @@
 	{
 		"name": "Landsknecht",
 		"unitType": "Sword",
-		"replaces": "Pikeman",
-		"uniqueTo": "Germany",
 		"movement": 2,
 		"strength": 16,
 		"cost": 45,
@@ -575,6 +565,8 @@
 	{
 		"name": "Knight",
 		"unitType": "Mounted",
+		"replaces": "Conquistador",
+		"uniqueTo": "Spain",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
@@ -605,8 +597,6 @@
 	{
 		"name": "Conquistador",
 		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Spain",
 		"movement": 4,
 		"strength": 20,
 		"cost": 135,
@@ -623,8 +613,6 @@
 	{
 		"name": "Naresuan's Elephant",
 		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Siam",
 		"movement": 3,
 		"strength": 25,
 		"cost": 120,
@@ -671,6 +659,8 @@
 	{
 		"name": "Crossbowman",
 		"unitType": "Archery",
+		"replaces": "Longbowman",
+		"uniqueTo": "England",
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
@@ -702,8 +692,6 @@
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
-		"replaces": "Crossbowman",
-		"uniqueTo": "England",
 		"cost": 120,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
@@ -714,6 +702,8 @@
 	{
 		"name": "Trebuchet",
 		"unitType": "Siege",
+		"replaces": "Hwach'a",
+		"uniqueTo": "Korea",
 		"movement": 2,
 		"strength": 12,
 		"rangedStrength": 14,
@@ -727,8 +717,6 @@
 	{
 		"name": "Hwach'a",
 		"unitType": "Siege",
-		"replaces": "Trebuchet",
-		"uniqueTo": "Korea",
 		"movement": 2,
 		"strength": 11,
 		"rangedStrength": 26,
@@ -742,6 +730,8 @@
 	{
 		"name": "Longswordsman",
 		"unitType": "Sword",
+		"replaces": "Berserker",
+		"uniqueTo": "Denmark",
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
@@ -770,8 +760,6 @@
 	{
 		"name": "Berserker",
 		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Denmark",
 		"movement": 3,
 		"strength": 21,
 		"cost": 120,
@@ -790,23 +778,10 @@
 	{
 		"name": "Caravel",
 		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Turtle Ship",
-		"unitType": "Melee Water",
-		"replaces": "Caravel",
+		"replaces": "Turtle Ship",
 		"uniqueTo": "Korea",
 		"movement": 4,
-		"strength": 36,
+		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
@@ -816,8 +791,23 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Turtle Ship",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 36,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Musketman",
 		"unitType": "Gunpowder",
+		"replaces": "Musketeer",
+		"uniqueTo": "France",
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
@@ -829,8 +819,6 @@
 	{
 		"name": "Musketeer",
 		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "France",
 		"movement": 2,
 		"strength": 28,
 		"cost": 150,
@@ -865,7 +853,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["Ignores terrain cost"],
-		"promotions": ["Drill I"],
+		"promotions": ["Drill II"],
 		"attackSound": "shot"
 	},
 	{
@@ -885,6 +873,8 @@
 	{
 		"name": "Privateer",
 		"unitType": "Melee Water",
+		"replaces": "Sea Beggar",
+		"uniqueTo": "The Netherlands",
 		"movement": 5,
 		"strength": 25,
 		"cost": 150,
@@ -896,8 +886,6 @@
 	{
 		"name": "Sea Beggar",
 		"unitType": "Melee Water",
-		"replaces": "Privateer",
-		"uniqueTo": "The Netherlands",
 		"movement": 5,
 		"strength": 25,
 		"cost": 150,
@@ -909,6 +897,8 @@
 	{
 		"name": "Frigate",
 		"unitType": "Ranged Water",
+		"replaces": "Ship of the Line",
+		"uniqueTo": "England",
 		"movement": 5,
 		"strength": 25,
 		"rangedStrength": 28,
@@ -923,8 +913,6 @@
 	{
 		"name": "Ship of the Line",
 		"unitType": "Ranged Water",
-		"replaces": "Frigate",
-		"uniqueTo": "England",
 		"movement": 5,
 		"strength": 30,
 		"rangedStrength": 35,
@@ -940,6 +928,8 @@
 	{
 		"name": "Lancer",
 		"unitType": "Mounted",
+		"replaces": "Hakkapeliitta",
+		"uniqueTo": "Sweden",
 		"movement": 4,
 		"strength": 25,
 		"cost": 185,
@@ -971,8 +961,6 @@
 	{
 		"name": "Hakkapeliitta",
 		"unitType": "Mounted",
-		"replaces": "Lancer",
-		"uniqueTo": "Sweden",
 		"movement": 4,
 		"strength": 25,
 		"cost": 185,
@@ -1016,6 +1004,8 @@
 	{
 		"name": "Rifleman",
 		"unitType": "Gunpowder",
+		"replaces": "Carolean",
+		"uniqueTo": "Sweden",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
@@ -1041,8 +1031,6 @@
 	{
 		"name": "Carolean",
 		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Sweden",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
@@ -1063,12 +1051,14 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"promotions": ["Drill I","Home Sweet Home"],
+		"promotions": ["Drill III","Home Sweet Home"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Cavalry",
 		"unitType": "Mounted",
+		"replaces": "Hussar",
+		"uniqueTo": "Austria",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
@@ -1098,8 +1088,6 @@
 	{
 		"name": "Hussar",
 		"unitType": "Mounted",
-		"replaces": "Cavalry",
-		"uniqueTo": "Austria",
 		"movement": 5,
 		"strength": 34,
 		"cost": 225,
@@ -1158,6 +1146,8 @@
 	{
 		"name": "Great War Infantry",
 		"unitType": "Gunpowder",
+		"replaces": "Foreign Legion",
+		"uniqueTo": "France",
 		"movement": 2,
 		"strength": 50,
 		"cost": 320,
@@ -1169,8 +1159,6 @@
 	{
 		"name": "Foreign Legion",
 		"unitType": "Gunpowder",
-		"replaces": "Great War Infantry",
-		"uniqueTo": "France",
 		"movement": 2,
 		"strength": 50,
 		"cost": 320,
@@ -1313,6 +1301,8 @@
 	{
 		"name": "Fighter",
 		"unitType": "Fighter",
+		"replaces": "Zero",
+		"uniqueTo": "Japan",
 		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 45,
@@ -1328,8 +1318,6 @@
 	{
 		"name": "Zero",
 		"unitType": "Fighter",
-		"replaces": "Fighter",
-		"uniqueTo": "Japan",
 		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 45,
@@ -1345,6 +1333,8 @@
 	{
 		"name": "Bomber",
 		"unitType": "Bomber",
+		"replaces": "B17",
+		"uniqueTo": "America",
 		"movement": 1,
 		"strength": 65,
 		"rangedStrength": 65,
@@ -1358,8 +1348,6 @@
 	{
 		"name": "B17",
 		"unitType": "Bomber",
-		"replaces": "Bomber",
-		"uniqueTo": "America",
 		"movement": 1,
 		"strength": 70,
 		"rangedStrength": 70,
@@ -1385,6 +1373,8 @@
 	{
 		"name": "Tank",
 		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"replaces": "Panzer",
 		"movement": 5,
 		"strength": 70,
 		"cost": 375,
@@ -1397,8 +1387,6 @@
 	{
 		"name": "Panzer",
 		"unitType": "Armored",
-		"uniqueTo": "Germany",
-		"replaces": "Tank",
 		"movement": 6,
 		"strength": 80,
 		"cost": 375,
