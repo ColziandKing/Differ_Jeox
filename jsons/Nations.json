@@ -6,7 +6,6 @@
 		"adjective": ["Great People"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Scientific",
-	  	"personality": "Kolzi Jose Emilio O. Duterte",
 		
 		"startIntroPart1": "Welcome to our great nation",
 		"startIntroPart2": "A peaceful and the greatest nation of all",
@@ -225,6 +224,9 @@
 		"name": "Manila",
 		"adjective": ["Manilan"],
 		"leaderName": "Philippines",
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+	  	"personality": "Kolzi Jose Emilio O. Duterte",
 
 		"favoredReligion": "Christianity",
 		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital"],
