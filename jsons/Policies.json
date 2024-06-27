@@ -26,7 +26,7 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free"
+                    "Provides a [Courthouse] in your first [4] cities for free"
                 ],
                 "row": 1,
                 "column": 3
@@ -62,8 +62,9 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+15]% growth [in all cities]",
+                    "[+15]% growth [in all cities]","Free Social Policy",
                     "Provides a [Museum] in your first [4] cities for free",
+                    "Provides the cheapest [Culture] building in your first [4] cities for free",
                   "May buy [Great Artist] units for [500] [Gold] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -132,7 +133,7 @@
             },
             {
                 "name": "Liberty Complete",
-                "uniques": ["Free Great Person"]
+                "uniques": ["Free Social Policy","Free Great Person"]
             }
         ]
     },
@@ -202,7 +203,7 @@
             },
             {
                 "name": "Honor Complete",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "Earn [50]% of killed [Military] unit's [Cost] as [Gold]",
                   "May buy [Great General] units for [500] [Gold] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -268,8 +269,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-20]%",
-                    "[+3 Gold, +3 Culture] from every [Holy site]",
-                    "Gain a free [Follower] belief",
+                    "[+3 Gold, +3 Culture] from every [Holy site]","Free Social Policy",
                   "May buy [Great Prophet] units for [500] [Gold] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -285,20 +285,23 @@
             "Domination": 0,
             "Scientific": 10
         },
-        "uniques": ["[-25]% City-State Influence degradation"],
+        "uniques": ["[-25]% City-State Influence degradation",
+            "[Great Merchant] is earned [25]% faster"],
         "policies": [
             {
                 "name": "Philantropy",
                 "uniques": [
-                    "Gifts of Gold to City-States generate [25]% more Influence"
+                    "Gifts of Gold to City-States generate [25]% more Influence","[+25]% [Gold] [in capital]"
                 ],
                 "row": 1,
                 "column": 2
             },
             {
-                "name": "Aesthetics",
+                "name": "Consulates",
                 "uniques": [
-                    "Resting point for Influence with City-States is increased by [20]"
+                    "Resting point for Influence with City-States is increased by [20]",
+                    "[+25]% [Food] [in all cities]",
+                    "[+25]% [Happiness] [in all cities]"
                 ],
                 "row": 1,
                 "column": 4
@@ -306,7 +309,8 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
+                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
+                    "[Great Scientist] is earned [25]% faster"
                 ],
                 "requires": ["Philantropy"],
                 "row": 2,
@@ -316,7 +320,8 @@
                 "name": "Cultural Diplomacy",
                 "uniques": [
                     "[+100]% resources gifted by City-States",
-                    "[+50]% Happiness from luxury resources gifted by City-States"
+                    "[+50]% Happiness from luxury resources gifted by City-States",
+                    "[Great Writer] is earned [25]% faster"
                 ],
                 "requires": ["Scholasticism"],
                 "row": 3,
@@ -326,14 +331,18 @@
                 "name": "Educated Elite",
                 "requires": ["Scholasticism", "Aesthetics"],
                 "uniques": [
-                    "Allied City-States will occasionally gift Great People"
+                    "Allied City-States will occasionally gift Great People",
+                    "[+25]% [Science] [in all cities]",
+                    "[+25]% [Production] [in all cities]"
                 ],
                 "row": 3,
                 "column": 4
             },
             {
                 "name": "Patronage Complete",
-                "uniques": [
+                "uniques": ["Free Social Policy",
+                    "[+25]% [Culture] [in all cities]",
+                    "[+25]% [Faith] [in all cities]",
                     "Influence of all other civilizations with all city-states degrades [33]% faster",
                   "May buy [Great Scientist] units for [500] [Gold] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                   "May buy [Great Engineer] units for [500] [Gold] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
@@ -405,7 +414,7 @@
             },
             {
                 "name": "Commerce Complete",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+1 Gold] from every [Trading post]",
                     "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
@@ -413,6 +422,99 @@
             }
         ]
     },
+    {
+		"name": "Exploration",
+		"uniques": ["[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>"],
+		"era": "Medieval era",
+		"policies": [
+			{
+				"name": "Maritime Infrastructure",
+				"uniques": ["[+3 Production] [in all coastal cities]"],
+				"row": 1,
+				"column": 2
+			},
+						{
+				"name": "Naval Tradition",
+				"uniques": ["[+1 Happiness] from every [Lighthouse]","[+1 Happiness] from every [Harbor]","[+1 Happiness] from every [Seaport]"],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Merchant Navy",
+				"uniques": ["[+1 Gold] from every [Lighthouse]","[+1 Gold] from every [Harbor]","[+1 Gold] from every [Seaport]","[+4 Production, +4 Culture] from every [East India Company]"],
+				"requires": ["Maritime Infrastructure","Naval Tradition"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Navigation School",
+				"uniques": ["[+2 Science] [in all coastal cities]"],
+				"requires": ["Naval Tradition"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Treasure Fleets",
+				"uniques": ["[+4 Gold] from each Trade Route"],
+				"requires": ["Navigation School"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Exploration Complete",
+				"uniques": ["Free Social Policy","[+3 Culture] [in all coastal cities]"]
+			}
+		]
+	},
+	{
+		"name": "Aesthetics",
+		"era": "Classical era",
+		"uniques": ["[Great Artist] is earned [33]% faster"],
+		"policies": [
+			{
+				"name": "Cultural Centers",
+				"uniques": ["[+100]% Production when constructing [Monument] buildings [in all cities]",
+					"[+100]% Production when constructing [Amphitheater] buildings [in all cities]",
+					"[+100]% Production when constructing [Opera House] buildings [in all cities]",
+					"[+100]% Production when constructing [Museum] buildings [in all cities]",
+					"[+100]% Production when constructing [Broadcast Tower] buildings [in all cities]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Fine Arts",
+				"uniques": ["[50]% of excess happiness converted to [Culture]"],
+				"row": 1,
+				"column": 4
+			},
+						{
+				"name": "Flourishing of the Arts",
+				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]","Empire enters golden age"],
+				"requires": ["Cultural Centers", "Fine Arts"],
+				"row": 2,
+				"column": 3
+			},
+						{
+				"name": "Artistic Genius",
+				"uniques": ["Free [Great Artist] appears"],
+				"requires": ["Fine Arts"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Cultural Exchange",
+				"uniques": ["[+20]% [Culture] from every [Museum]","[+20]% [Culture] from every [Opera House]","[+20]% [Culture] from every [Broadcast Tower]"],
+				"requires": ["Flourishing of the Arts"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Aesthetics Complete",
+				"uniques": ["[+4 Culture] from every [Landmark]","Free Social Policy","May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+			}
+		]
+	},
     {
         "name": "Rationalism",
         "era": "Renaissance era",
@@ -473,7 +575,7 @@
             },
             {
                 "name": "Rationalism Complete",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[2] Free Technologies",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -534,7 +636,7 @@
             },
             {
                 "name": "Freedom Complete",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+100]% Yield from every [Great Improvement]",
                     "[+50]% Golden Age length",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
@@ -605,7 +707,7 @@
             },
             {
                 "name": "Autocracy Complete",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+25]% Strength <when attacking> <for [Military] units> <for [1000] turns>",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                     "Triggers the following global alert: [World War!]"
@@ -675,7 +777,7 @@
             },
             {
                 "name": "Order Complete",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                     "Triggers the following global alert: [World Mine!]"
