@@ -1,3 +1,82 @@
+game8.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ReligionIcons/Animism
+  rotate: false
+  xy: 212, 148
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+game4.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ReligionIcons/Druidism
+  rotate: false
+  xy: 212, 1275
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Jainism
+  rotate: false
+  xy: 4, 443
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+game1.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ReligionIcons/Catholicism
+  rotate: false
+  xy: 700, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Eastern Orthodoxy
+  rotate: false
+  xy: 700, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Uncivism
+  rotate: false
+  xy: 700, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+game0.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ReligionIcons/Ashla
+  rotate: false
+  xy: 868, 1612
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/The Force
+  rotate: false
+  xy: 544, 424
+  size: 99, 100
+  orig: 99, 100
+  offset: 0, 0
+  index: -1
 
 game.png
 size: 2048, 2048
