@@ -880,7 +880,7 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I", "[Privateer] ability"],
+		"promotions": ["Coastal Raider I"],
 		"attackSound": "cannon"
 	},
 	{
