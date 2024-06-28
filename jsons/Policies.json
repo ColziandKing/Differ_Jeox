@@ -138,7 +138,7 @@
 	},{
 		"name": "Piety",
 		"era": "Ancient era",
-		"uniques": ["Gain a free [Pantheon] belief", "[+100]% Production when constructing [Shrine] buildings [in all cities]", "[+100]% Production when constructing [Temple] buildings [in all cities]"],
+		"uniques": ["[+100]% Production when constructing [Shrine] buildings [in all cities]", "[+100]% Production when constructing [Temple] buildings [in all cities]"],
 		"policies": [
 			{
 				"name": "Organized Religion",
@@ -175,7 +175,7 @@
 			},
 			{
 				"name": "Piety Complete",
-				"uniques": ["Free Social Policy","Free [Great Prophet] appears", "[+3 Culture] from every [Holy site]"]
+				"uniques": ["Gain a free [Pantheon] belief","Free Social Policy","Free [Great Prophet] appears", "[+3 Culture] from every [Holy site]"]
 			}
 		]
 	},
