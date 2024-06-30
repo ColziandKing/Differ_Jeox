@@ -1,5 +1,54 @@
 [
   //nations
+	{
+		"name": "Grand Philippines",
+		"leaderName": "PH",
+		"adjective": ["Grand People"],
+		"startBias": ["Oasis"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "Welcome to our great nation",
+		"startIntroPart2": "A peaceful and the greatest nation of all",
+		
+		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
+		"attacked": "You want to die? Very funny!",
+		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
+		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		
+		"neutralHello": "How are you doing?",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [145,172,247],
+		"innerColor": [49,6,133],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Bagoong Pilipinas",
+		"uniques": [
+        		"Free [Great Engineer] appears",
+        		"Great General provides double combat bonus",
+        		"[+10] Movement <for [All] units>",
+        		"[+10] Sight <for [All] units>",
+        		"Double quantity of [Horses] produced",
+        		"Double quantity of [Iron] produced",
+        		"Double quantity of [Uranium] produced",
+        		"Double quantity of [Oil] produced",
+        		"Damage is ignored when determining unit Strength <for [All] units>",
+        		"[-500]% Unhappiness from [Population] [in all cities]",
+        		"[-100]% maintenance costs <for [All] units>",
+        		"[+100]% Strength <for [All] units>",
+        		"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+        		"[{Military} {Land}] units gain the [Amphibious] promotion",
+        		"[All] units gain the [Morale] promotion",
+        		"[All] units gain the [Medic] promotion",
+        		"[All] units gain the [Medic II] promotion",
+        		"[Melee Water] units gain the [Landing Party] promotion",
+        		"[{Military}] units gain the [Quick Study] promotion",
+        		"Earn [100]% of killed [{Military}] unit's [Strength] as [Culture]",
+        		"No movement cost to pillage <for [Melee] units>",
+        		"Gain a free [Harbor] [in all coastal cities]"
+                ],
+		"cities": ["Manila", "Cebu", "Davao", "Baguio", "Puerto Prinsesa", "Vigan", "San Fernando", "Calamba", "Quezon", "Batanes"],
+		"spyNames": ["Emilio", "Jose", "Manuel", "Sergio", "Elpidio", "Ramon", "Ferdinand", "Corazon", "Fidel", "Joseph", "Gloria", "Benigno", "Rodrigo", "Bongbong"]
+	},
   {
 		"name": "Great Philippines",
 		"leaderName": "Kolzi Jose Emilio O. Duterte",
@@ -224,7 +273,7 @@
 	{
 		"name": "Manila",
 		"adjective": ["Manilan"],
-		"leaderName": "Philippines",
+		"leaderName": "Kolzi Jose Emilio O. Duterte",
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 	  	"personality": "Kolzi Jose Emilio O. Duterte",
