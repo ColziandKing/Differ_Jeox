@@ -61,6 +61,33 @@
 		"uniques": ["Destroyed when the city is captured"]
 },
 	{
+		"name": "Heads Quarters",
+		"replaces": "Palace",
+		"cost": 1,
+		"uniqueTo": "Grand Philippines",
+		"isNationalWonder": true,
+		"production": 50,
+		"science": 2,
+		"gold": 500,
+		"culture": 2,
+		"faith": 2,
+		"happiness": 2,
+		"food": 2,
+		"cityStrength": 20,
+		"uniques": ["Indicates the capital city"]
+},
+{
+		"name": "Walls of the Grand Philippines",
+		"replaces": "Walls",
+		"cost": 65,
+		"uniqueTo": "Grand Philippines",
+		"cityStrength": 60,
+		"cityHealth": 250,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+},
+	{
 		"name": "Communia Polithea",
 		"culture": 1,
 		"cost": 40,
