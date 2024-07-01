@@ -1,5 +1,19 @@
 [
-
+//ss
+	{
+		"name": "Nucleus Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 10,
+		"uniqueTo": "Grand Philippines",
+		"requiredTech": "Archery",
+		"uniques": ["Nuclear weapon of Strength [5]", 
+			"Blast radius [5]"],
+		"attackSound": "nuke"
+	},
 	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 
 	/* Ancient Era */
