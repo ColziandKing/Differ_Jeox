@@ -61,7 +61,7 @@
 		"uniques": ["Destroyed when the city is captured"]
 },
 	{
-		"name": "Heads Quarters",
+		"name": "Heads Quarter",
 		"replaces": "Palace",
 		"cost": 1,
 		"uniqueTo": "Grand Philippines",
