@@ -74,7 +74,8 @@
 		"happiness": 2,
 		"food": 2,
 		"cityStrength": 20,
-		"uniques": ["Indicates the capital city"]
+		"uniques": ["Indicates the capital city","Provides [2] [Porcelain]","Provides [2] [Jewelry]","Provides [5] [Horses]",
+			"Provides [3] [Iron]","Provides [3] [Coal]","Provides [3] [Oil]","Provides [3] [Aluminum]","Provides [3] [Uranium]",]
 },
 {
 		"name": "Walls of the Grand Philippines",
@@ -85,7 +86,12 @@
 		"cityHealth": 250,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured","Provides [3] [Furs]","Provides [3] [Furs]",
+			"Provides [3] [Cotton]","Provides [3] [Dyes]","Provides [3] [Gems]","Provides [3] [Gold Ore]",
+			"Provides [3] [Silver]","Provides [3] [Incense]","Provides [3] [Ivory]","Provides [3] [Silk]",
+			"Provides [3] [Spices]","Provides [3] [Wine]","Provides [3] [Sugar]","Provides [3] [Marble]",
+			"Provides [3] [Whales]","Provides [3] [Pearls]","Provides [3] [Citrus]","Provides [3] [Copper]",
+			"Provides [3] [Crab]","Provides [3] [Salt]","Provides [3] [Truffles]"]
 },
 	{
 		"name": "Communia Polithea",
