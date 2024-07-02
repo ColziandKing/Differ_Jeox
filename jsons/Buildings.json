@@ -86,12 +86,12 @@
 		"cityHealth": 250,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured","Provides [3] [Furs]","Provides [3] [Furs]",
-			"Provides [3] [Cotton]","Provides [3] [Dyes]","Provides [3] [Gems]","Provides [3] [Gold Ore]",
-			"Provides [3] [Silver]","Provides [3] [Incense]","Provides [3] [Ivory]","Provides [3] [Silk]",
-			"Provides [3] [Spices]","Provides [3] [Wine]","Provides [3] [Sugar]","Provides [3] [Marble]",
-			"Provides [3] [Whales]","Provides [3] [Pearls]","Provides [3] [Citrus]","Provides [3] [Copper]",
-			"Provides [3] [Crab]","Provides [3] [Salt]","Provides [3] [Truffles]"]
+		"uniques": ["Destroyed when the city is captured","Provides [1] [Furs]","Provides [1] [Furs]",
+			"Provides [1] [Cotton]","Provides [1] [Dyes]","Provides [1] [Gems]","Provides [1] [Gold Ore]",
+			"Provides [1] [Silver]","Provides [1] [Incense]","Provides [1] [Ivory]","Provides [1] [Silk]",
+			"Provides [1] [Spices]","Provides [1] [Wine]","Provides [1] [Sugar]","Provides [1] [Marble]",
+			"Provides [1] [Whales]","Provides [1] [Pearls]","Provides [1] [Citrus]","Provides [1] [Copper]",
+			"Provides [1] [Crab]","Provides [1] [Salt]","Provides [1] [Truffles]"]
 },
 	{
 		"name": "Communia Polithea",
