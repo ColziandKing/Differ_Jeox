@@ -227,6 +227,20 @@
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
 	{
+		"name": "Light Chariot",
+		"unitType": "Sword",
+		"movement": 5,
+		"strength": 10,
+		"cost": 50,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["Cover I","Shock I"],
+		"uniques": ["No defensive terrain bonus","Consumes [1] [Horses]","[+25]% Strength <vs [Sword] units>","Rough terrain penalty","[-33]% Strength <vs cities>"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Chariot Archer",
 		"unitType": "Archery",
 		"uniqueTo": "Egypt",
@@ -326,15 +340,15 @@
 	{
 		"name": "Battering Ram",
 		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
-		"movement": 2,
-		"strength": 10,
+		"movement": 3,
+		"strength": 20,
 		"cost": 75,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
 		"[-1] Sight", "Can only attack [City] units"],
-		"promotions":  ["Cover I"],
+		"promotions":  ["Cover I","Cover II"],
 		"attackSound": "throw"
 	},
 	{
